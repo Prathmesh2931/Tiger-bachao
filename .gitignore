@@ -40,5 +40,5 @@ training/data/
 
 # Keep selected production models
 !models/
-!models/tiger_detector_v1.pt
+!models/tiger_detector_v2.pt
 !models/yolov8n.pt

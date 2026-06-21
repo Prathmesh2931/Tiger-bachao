@@ -1,8 +1,6 @@
 from ultralytics import YOLO
 
-tiger_model = YOLO(
-    "runs/detect/runs/detect/tiger_detector_v2/weights/best.pt"
-)
+tiger_model = YOLO("models/tiger_detector_v2.pt")
 
 general_model = YOLO("yolov8n.pt")
 
