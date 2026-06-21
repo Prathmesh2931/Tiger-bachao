@@ -1,0 +1,13 @@
+venv/
+.git/
+runs/
+__pycache__/
+
+training/datasets/
+training/data/tiger_reid/
+
+*.pyc
+*.pyo
+*.db
+
+notebooks/
