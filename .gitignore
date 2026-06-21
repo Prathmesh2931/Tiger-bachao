@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Env
+venv/
+
+# Environment Variables
+.env
+
+# Training outputs
+runs/
+
+# Datasets
+training/datasets/
+training/data/
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Databases
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# Linux
+*.swp
+
+# Model files
+*.pt
+*.onnx
+*.engine
+
+# Keep selected production models
+!models/
+!models/tiger_detector_v1.pt
+!models/yolov8n.pt
